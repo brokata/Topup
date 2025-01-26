@@ -1,0 +1,73 @@
+  
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #7da6a6;
+        }
+        .header {
+            background-color: #6a5acd;
+            color: white;
+            text-align: center;
+            padding: 35px;
+            font-family: 'Fredoka One', cursive;
+            position: relative;
+        }
+        .header img {
+            position: absolute;
+            left: 23px;
+            top: 12px;
+            width: 82px;
+            height: 83px;
+        }
+        .banner {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .banner img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .game-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .game-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+        }
+        .game-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .game-card h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .game-card button {
+            background-color: #90ee90;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .game-card button:hover {
+            background-color: #76c76c;
+        }
+ 
